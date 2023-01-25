@@ -67,9 +67,6 @@
 				captchaRefresh.addEventListener('click', generateCaptcha);
 			}
 
-			function redirectionDuckduck() {
-				
+			function submitForm() {				
 				document.querySelector("#monFormulaire").requestSubmit(); // Envoyer un formulaire
 			}
-
-			captchaCF2M(redirectionDuckduck, 6)

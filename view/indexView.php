@@ -11,9 +11,9 @@
     <title>Mail</title>
     <link href='css/style.css' rel='stylesheet' />
     <link href='css/captcha.css' rel='stylesheet' />
-    <script src="js/captcha.js"></script>
+    <script src="js/captcha.js" defer></script>
 </head>
-<body onload="captchaCF2M(redirectionDuckduck, 6);">
+<body onload="captchaCF2M(submitForm, 6);">
     <h1>Mail</h1>
     <h2>Formulaire</h2>
     <?php
